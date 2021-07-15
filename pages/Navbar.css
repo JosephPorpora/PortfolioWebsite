@@ -1,0 +1,57 @@
+  .navbar {
+    height: 100%;
+    width: 225px;
+    background-color:lightgray;
+    position:fixed;
+    font-size: 18px;   
+  }
+  
+  #profilepic{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    display: inline-block;
+    white-space:nowrap;
+    border: 2px solid #555;
+  }
+
+  #profilepicture{
+    margin: auto;
+    padding: 25px 40px 10px;
+  }
+
+  #navrefs a{
+    padding:0px 10px;
+  }
+
+  .projects{
+    padding:0px 5px;
+  }
+
+  .projects h2{
+    white-space: nowrap;
+    font-size: 22px;
+  }
+
+  a{
+    margin:auto;
+    text-align: left;
+    font-size: 16px;
+    padding: 5px 0px;
+    text-decoration: none;
+    color:rgb(66, 66, 66);
+    white-space: nowrap ;
+  }
+
+  .navbar a:hover {
+    color: black;
+  }
+
+  .navfield{
+    padding:14px 5px;
+  }
+
+  .navfield a{
+    padding: 5px;
+  }
+
