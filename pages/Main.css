@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+}
+
+.body{
+    margin-left: 200px;
+    position: relative;
+}
+
+.field{
+    margin-left: auto;
+    margin-right: auto;
+    padding:25px;
+}
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.view a{
+    padding: 0px 5px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.body h2 a{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.body h2 a:hover{
+    color: darkgray;
+    transition: .15s ease;
+}
+
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size:18px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link a:visited a:active{
+    text-decoration: none;
+}
+
+a:hover{
+    color: lightgray;
+}
+
+.image{
+    margin: auto;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding: none;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+#portfoliocontainer{
+    max-width: 850px;
+    max-height: 450px;
+}
+
+#bbcontainer{
+    max-width: 850px;
+    max-height: 550px;
+}
+
+#onlineshoppingcontainer{
+    max-width: 750px;
+    max-height: 500px;
+}
+
+#crimeresearchcontainer{
+    width:750px;
+    height:500px;
+}
+
+#marriageresearchcontainer{
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#experimentdesigncontainer{
+    max-width: 550px;
+    max-height: 400px;
+}
+
+.centeredtext{
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+.container:hover .image{
+    opacity: 0.3;
+}
+  
+.container:hover .centeredtext {
+    transition: .3s ease;
+    opacity: 1;
+} 
+
+.centeredtext:hover{
+    transition: .15s ease;
+    color: darkgray;
+}
+
+#backgroundimage{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#websiteimage{
+    width: 850px;
+    height: 450px;
+}
+
+#bookbargainsimage{
+    width:850px;
+    height:550px;
+}
+
+#onlineshoppingimage{
+    width: 750px;
+    height:500px;
+}
+
+#economicstatusimage{
+    width:750px;
+    height:500px;
+}
+
+#marriagedataimage{
+    width:500px;
+    height:500px;
+}
+
+#experimentdesignimage{
+    width:550px;
+    height:400px;
+}
+
+.project{
+    padding:40px 0px;
+}
+
+.project img{
+    padding:7px 0px;
+}
+
+.tools img{
+    width:40px;
+    height:40px;
+    padding: 0px 5px;
+}
+
+

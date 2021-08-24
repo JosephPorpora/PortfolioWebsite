@@ -1,0 +1,65 @@
+<html>
+<head>
+    <link rel="stylesheet" href="CrimeResearch.css">
+    <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="Navbar.css">
+</head>
+<body style="margin:0">
+
+    <div id='crimeresearchpage' style="background-image: url('../images/background.png'); background-size: contain;">
+        <nav class="navbar">
+            <div>
+                <div id="profilepicture">
+                    <a href="Index.html"><img id="profilepic" src="../images/profpicsquare.jpg" alt="profile pic"></img></a>
+                </div>
+                <div id="navrefs">
+                    <a href="Contact.html">Contact</a>
+                    <a href="About.html">About</a>
+                    <a href="Index.html">Home</a>
+                </div>
+                <div class="projects">
+                    <div class="navfield">
+                        <h2>Computer Science</h2>
+                        <a href="BookBargains.html">Book Bargains</a><br></br>
+                        <a href="PortfolioWebsite.html">Portfolio Website</a><br></br>
+                        <a href="OnlineShopping.html">Online Shopping Simulator</a><br></br>
+                    </div>
+                    <div class="navfield">
+                        <h2>Economic Research</h2>
+                        <a href="MarriageResearch.html">Education vs Marriage</a><br></br>
+                        <a href="CrimeResearch.html">Economic Status vs Crime</a><br></br>
+                        <a href="MinWageExperiment.html">Minimum Wage Experiment</a><br></br>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="crimeresearchbody">
+            <img class="image center" id="econstatusimage" src="../images/econstatusgraph.png" alt=""></img>
+            <h1 class="center">Exploring Links Between Economic Status and Crime</h1>
+            <p class="left description">&emsp;&emsp;<i>Exploring Links Between Economic Status and Crime</i> was a research paper I co-wrote my junior year 
+                for my Economic Statistics course. This paper was my first dive into statistics and data analysis. The data examined
+                is from a dataset on prison populations and crime rates available through a Boston College database. 
+            </p>
+            <p class="left description">&emsp;&emsp;Crime has been the center of plenty of political and social debates, especially within the last few years. 
+                This was our motivating factor to examine crime data first-hand and potentially debunk any misconceptions on how economics and crime are related. 
+                In our efforts to examine if economic status is truly inversely related to crime, our statistical and graphical models 
+                informed us that the percent concentration of a population in metropolitan areas and unemployment rates are the two most useful statistics to 
+                predict crime rates, while income may actually be an ineffective predictor.
+            </p>
+            <p class="left description">&emsp;&emsp;All data analysis for this project was done using Stata. The primary tool used to dentify the most important factors 
+                contributing to crime rates were logistic regressions. Several regressions were run to view the magnitude of effect of our 
+                independent variables. Other statistical analysis methods used were t-tests, the creation of confidence intervals, and correlations.
+                Though Stata was very helpful to initally analyze the data, it falls short in the data visualization department. In order to add more 
+                compelling graphics to the paper, some of the graphs were re-made in Tableau.
+            </p>
+        <h3>View</h3>
+        <div class="center">
+            <a href='../files/EconomicStatusVsCrime.pdf' target="_blank" rel="noreferrer">
+                <button type="button" class="button">PDF</button>
+            </a>
+        </div>
+        </div>
+    </div>
+
+</body>
+</html>

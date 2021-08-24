@@ -1,0 +1,63 @@
+  .navbar {
+    height: 100%;
+    width: 225px;
+    background-color: rgb(150,185,220,.65);
+    position:fixed;
+    font-size: 18px;   
+    z-index: 1;
+  }
+  
+  #profilepic{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    display: inline-block;
+    white-space:nowrap;
+    border: 2px solid white;
+  }
+
+  #profilepicture{
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px 10px;
+  }
+
+  #navrefs{
+    padding-top: 10px;
+  }
+
+  #navrefs a{
+    padding-left: 15px;
+  }
+
+  .navbar a{
+    padding:0px 10px;
+    margin:auto;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px;
+    text-decoration: none;
+    color:rgb(66, 66, 66);
+    white-space: nowrap;
+  }
+
+  .projects{
+    padding:20px 5px;
+  }
+
+  .projects h2{
+    white-space: nowrap;
+    font-size: 22px;
+  }
+
+  .navbar a:hover {
+    color: black;
+    transition: .15s ease;
+  }
+
+  .navfield{
+    padding: 5px;
+  }
+
+

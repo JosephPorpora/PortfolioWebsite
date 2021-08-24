@@ -1,0 +1,53 @@
+#websitepagebody{
+    padding: 50px;
+    margin-left: 200px;
+}
+
+#websitecodeimage{
+    display: block;
+    margin: auto;
+    width: 850px;
+    height: 450px;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+.flexparent{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    display: flex;
+}
+
+.flexchild{
+    min-width: 100px;
+    width: 100px;
+    padding: 0px 10px; 
+    flex: 1;
+}
+
+.button{
+    width:80px;
+    height:40px;
+    margin: auto;
+    text-align: center;
+}
+
+.description{
+    margin-left: 12.5%;
+    margin-right: 10%;
+    max-width: 75%;
+}
+
+
+a{
+    text-align: center;
+    margin: auto;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
